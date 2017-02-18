@@ -16,7 +16,7 @@ Frontend
 <li>node.js    https://nodejs.org/es/ </li>
 <li>npm   https://www.npmjs.com/ </li>
 <li>Angular-CLI  https://cli.angular.io/ </li>
-<li>Bootstrap 4  https://ng-bootstrap.github.io/#/home  </li>
+<li>Bootstrap 4  https://ng-bootstrap.github.io/#/home // https://github.com/valor-software/ng2-bootstrap/blob/development/docs/getting-started/ng-cli.md </li>
 </ul>
 
 Backend
