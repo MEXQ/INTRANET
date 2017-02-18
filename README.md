@@ -9,7 +9,7 @@ asi como conocerce entre todos los empleados </p>
 
 <p>El proyecto de intranet para MEXQ , esta siendo desarrollado en Typescript(Angular 2) y PHP (Laravel). </p>
 
-<h3REQUIERIMENTOS DE INSTALACION</h3> 
+<h3>REQUIERIMENTOS DE INSTALACION</h3> 
 
 Frontend
 <ul>
