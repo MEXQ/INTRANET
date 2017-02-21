@@ -3,7 +3,7 @@
 <h3>Objetivo</h3>
 <p>El objetivo de este proyecto es proveer a la empresa MEXQ de un sistema para el
 manejo de la informacion de los empleados y poder realizar tramites por medio de la intranet
-asi como conocerce entre todos los empleados awebosss </p>
+asi como conocerce entre todos los empleados yes </p>
 
 <h3>Desarrollo</h3>
 
