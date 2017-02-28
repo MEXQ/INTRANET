@@ -1,0 +1,80 @@
+<script>
+    $('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
+</script>
+
+<div class="container">    
+        
+    <div id="loginbox" class="mainbox col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3"> 
+        
+        <div class="panel panel-default" >
+            <div class="panel-heading">                  
+                <img src="img/logo.png" align="middle">  
+              
+            </div>     
+
+            <div class="panel-body">
+                <form (ngSubmit)=RequestValidation()>                   
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        
+                        <input id="user" type="text" class="form-control" name="user" [(ngModel)]="user_form" placeholder="Correo Electrónico" required>
+                        
+                    </div>
+
+                    <p></p>
+
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        
+                        <input id="password" type="password" class="form-control" name="password" [(ngModel)]="password_form" placeholder="Contraseña" required>
+                        
+                    </div>                                     
+                    <p></p>                             
+
+                    <div class="form-group">                    
+                        <button id="register_lost_btn" type="button" class="btn btn-link" data-toggle="modal" data-target="#myModal">¿Olvidaste tu contraseña?</button>             
+                        <button type="submit" class="btn btn-primary pull-right">Iniciar Sesión</button>
+                    </div>
+
+                </form>     
+
+            </div>                     
+        </div>  
+    </div>
+</div>
+
+<!-- Modal Forgotten password--> 
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+        <img src="img/logo.png" align="middle">                       
+      </div>
+
+      <div class="modal-body">
+         <p class="text-info">
+        Para poder reestablecer tu contraseña, escribe tu correo @mexq.com.mx
+         </p>
+         <input id="send_email" type="text" class="form-control" name="user" value="" placeholder="Correo Electronico" required>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="success" class="alert alert-success" role="alert">
+  <strong>Well done!</strong> {{user}} - {{password}}
+</div>
+
+<div id="unsuccess" class="alert alert-danger" role="alert">
+  <strong>Oh snap!</strong> Change a few things up and try submitting again.
+</div>
