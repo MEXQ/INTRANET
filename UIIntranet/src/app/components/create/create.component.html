@@ -1,39 +1,176 @@
 <div class="container">
       <div class="row">
-      <div class="col-md-5  toppad  pull-right col-md-offset-3 ">
-       <A href="edit.html" >Edit Profile</A>
-       <br>
-       
-      </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" >
    
    
           <div class="panel panel-info">
             <div class="panel-heading">
-              <h3 class="panel-title">Crear Perfil</h3>
+              <h4 align="middle">Crear Perfil</h4>
             </div>
             <div class="panel-body">
               <div class="row">
-                <div class="col-md-3 col-lg-3 " align="center"> <img alt="User Pic" src="http://babyinfoforyou.com/wp-content/uploads/2014/10/avatar-300x300.png" class="img-circle img-responsive"> </div>                
+                <div class="col-md-3 col-lg-3 " align="center"> <img alt="avatar" src="img/sins.jpg" class="img-circle img-responsive"> </div>                
                
                 <div class=" col-md-9 col-lg-9 "> 
                   <table class="table table-user-information">
                     <tbody>
-                      <tr>
-                        <td>Nombre:</td>
+                    <tr>
+                        <td>Nomina:</td>
                         <td>
                             <div>
-                            <input class="form-control" value="Jane" type="text">
+                            <input class="form-control" value="" type="text">
                             </div>
                         </td>
                       </tr>
                       <tr>
-                        <td>Hire date:</td>
-                        <td>06/23/2013</td>
+                        <td>Nombre:</td>
+                        <td>
+                            <div>
+                            <input class="form-control" value="" type="text">
+                            </div>
+                        </td>
                       </tr>
                       <tr>
-                        <td>Date of Birth</td>
-                        <td>01/24/1988</td>
+                        <td>Apellido Paterno:</td>
+                        <td>
+                            <div>
+                            <input class="form-control" value="" type="text">
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Apellido Materno:</td>
+                        <td>
+                            <div>
+                            <input class="form-control" value="" type="text">
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Area:</td>
+                        <td>
+                            <div class="form-group">                                
+                                <div>
+                                  <select id="selectbasic" name="selectbasic" class="form-control">
+                                    <option value="1">Area 1</option>
+                                    <option value="2">Area 2</option>
+                                    <option value="3">Area 3</option>
+                                    <option value="4">Area 4</option>
+                                  </select>
+                                </div>
+                              </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Puesto:</td>
+                        <td>
+                            <div class="form-group">
+                                <div>
+                                  <select id="selectbasic" name="selectbasic" class="form-control">
+                                    <option value="1">Puesto 1</option>
+                                    <option value="2">Puesto 2</option>
+                                    <option value="3">Puesto 3</option>
+                                    <option value="4">Puesto 4</option>
+                                  </select>
+                                </div>
+                              </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>No. IMSS:</td>
+                        <td>
+                            <div>
+                            <input class="form-control" value="" type="text">
+                            </div>
+                        </td>
+                      </tr>
+                       </tbody>
+                  </table>        
+                </div>
+              </div>
+
+
+               <div class="row">
+                <div class="col-md-3 col-lg-3 " align="center"> <img alt="QR" src="img/qr.jpg" class="img-responsive"> </div>             
+               
+                <div class=" col-md-9 col-lg-9 "> 
+                  <table class="table table-user-information">
+                    <tbody>                
+                      <tr><h4>Dirección</h4></tr>
+                      <tr>
+                        <td>Calle:</td>
+                        <td>
+                            <div>
+                            <input class="form-control" value="" type="text" placeholder="">
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Número:</td>
+                        <td>
+                            <div>
+                            <input class="form-control" value="" type="text" placeholder="" align="right">
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Fraccionamiento:</td>
+                        <td>
+                            <div>
+                            <input class="form-control" value="" type="text">
+                            </div>
+                        </td>
+                        <td>
+                      </tr>
+                      
+                      <tr>
+                        <td>Código Postal:</td>
+                        <td>
+                            <div>
+                            <input class="form-control" value="" type="text" placeholder="">
+                            </div>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>Estado:</td>
+                        <td>
+                            <div class="form-group">
+                                <div>
+                                  <select id="selectbasic" name="selectbasic" class="form-control">
+                                    <option value="1">Aguascalienets</option>
+                                    <option value="2">Baja California</option>
+                                    <option value="3">Baja California Sur</option>
+                                    <option value="4">Coahuila</option>
+                                  </select>
+                                </div>
+                              </div>
+                        </td>
+                    </tr>
+                      <tr>
+                        <td>Municipio:</td>
+                        <td>
+                            <div>
+                            <input class="form-control" value="" type="text" placeholder="">
+                            </div>
+                        </td>
+                      </tr>
+                      <tr><h4>Teléfono</h4></tr>
+                      <tr>
+                        <td>Local/Fijo:</td>
+                        <td>
+                            <div>
+                            <input class="form-control" value="" type="text" placeholder="">
+                            </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Celular</td>
+                        <td>
+                            <div>
+                            <input class="form-control" value="" type="text" placeholder="" align="right">
+                            </div>
+                        </td>
                       </tr>
                    
                          <tr>
@@ -57,22 +194,20 @@
                       </tr>
                      
                     </tbody>
-                  </table>
+                  </table>        
                   
-                  <a href="#" class="btn btn-primary">My Sales Performance</a>
-                  <a href="#" class="btn btn-primary">Team Sales Performance</a>
-                </div>
-              </div>
-            </div>
-                 <div class="panel-footer">
-                        <a data-original-title="Broadcast Message" data-toggle="tooltip" type="button" class="btn btn-sm btn-primary"><i class="glyphicon glyphicon-envelope"></i></a>
-                        <span class="pull-right">
-                            <a href="edit.html" data-original-title="Edit this user" data-toggle="tooltip" type="button" class="btn btn-sm btn-warning"><i class="glyphicon glyphicon-edit"></i></a>
-                            <a data-original-title="Remove this user" data-toggle="tooltip" type="button" class="btn btn-sm btn-danger"><i class="glyphicon glyphicon-remove"></i></a>
-                        </span>
-                    </div>
+                </div>             
+
+              <div class="row">
+              <div class="bar_code col-md-12 col-lg-12 " align="center"> <img alt="Bar Code" src="img/bar_code.jpg" class="img-responsive"> </div>  
+              </div>     
             
-          </div>
+            </div>
+            </div>
+            <div class="panel-footer">
+                <div data-original-title="Add User" data-toggle="tooltip" type="button" class="btn btn-sm btn-success"><i class="glyphicon glyphicon-ok"></i></div>
+                <div data-original-title="Remove User" data-toggle="tooltip" type="button" class="btn btn-sm btn-danger"><i class="glyphicon glyphicon-remove"></i></div>                        
+            </div>   
         </div>
       </div>
     </div>
